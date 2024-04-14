@@ -8,8 +8,13 @@
 /* Below are some other possible descendant combinators:
 
 div p
-div > p
+div > p = this means p must be a direct child of div
 div .text
 .container p
 
 */
+
+/* The descendant combinator matches a child, grandchild, and so on. 
+The child combinator selects elements that are direct children of another element.
+ You use the greater than symbol (>) between selectors to specify that one selector is a direct child of the other.
+  */
