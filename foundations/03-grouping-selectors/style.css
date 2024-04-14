@@ -1,0 +1,13 @@
+button{
+    font-family: Helvetica, 'Times New Roman', Times, sans-serif;
+    font-size: 28px; 
+    background-color: black;
+
+}
+button.click{
+    color:white; 
+    font-weight: bold;;
+}
+button.no_click{
+    background-color: yellow;
+}
